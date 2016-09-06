@@ -1,0 +1,30 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="stats">
+        <%= render 'shared/stats' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1>Little BlueBird Micropost App</h1>
+    <img src="/images/bluebird.png" height="200", width="300">
+    <h2>
+      Get in-the-moment updates and connect with your friends.
+    </h2>
+
+    <%= link_to "Sign up", signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+
+<% end %>
