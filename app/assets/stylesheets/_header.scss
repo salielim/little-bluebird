@@ -1,0 +1,39 @@
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  letter-spacing: -1px;
+  padding-top: 10px;
+  font-weight: bold;
+  &:hover {
+    color: #d9edf7;
+    text-decoration: none;
+  }
+}
+
+.navbar-fixed-top {
+  background-color: #428bca;
+  background-image: none;
+  background-repeat: no-repeat;
+  border:#428bca;
+  padding: 2%;
+}
+
+.nav.navbar-nav.navbar-right a {
+  color: white;
+  &:hover {
+    color: #d9edf7;
+    text-decoration: none;
+  }
+}
+
+.dropdown-menu {
+  background-color: #428bca;
+  color: white;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #428bca;
+    background-image: none;
+}
