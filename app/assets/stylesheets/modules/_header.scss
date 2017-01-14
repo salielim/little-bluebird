@@ -12,7 +12,7 @@
   }
 }
 
-.navbar-fixed-top {
+.mod-navbar-fixed-top {
   background-color: #428bca;
   background-image: none;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   padding: 2%;
 }
 
-.nav.navbar-nav.navbar-right a {
+.mod-nav.navbar-nav.navbar-right a {
   color: white;
   &:hover {
     color: #d9edf7;
@@ -28,12 +28,12 @@
   }
 }
 
-.dropdown-menu {
+.mod-dropdown-menu {
   background-color: #428bca;
   color: white;
 }
 
-.dropdown-menu > li > a:hover {
+.mod-dropdown-menu > li > a:hover {
     background-color: #428bca;
     background-image: none;
 }
