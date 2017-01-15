@@ -1,4 +1,4 @@
-@import "base/fonts";
+@import "base/vars";
 
 footer {
   margin-top: 45px;
@@ -8,7 +8,7 @@ footer {
   a {
     color: gray-medium-light;
     &:hover {
-      color: #222;
+      color: $black;
     }
   }
   small {
